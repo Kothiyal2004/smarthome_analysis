@@ -1,0 +1,194 @@
+{
+  "Alice": {
+    "kitchen_light::turn_on": [
+      {
+        "next_action": "bedroom_light::turn_off",
+        "probability": 0.469,
+        "count": 15,
+        "total": 32
+      },
+      {
+        "next_action": "front_door_lock::unlock",
+        "probability": 0.25,
+        "count": 8,
+        "total": 32
+      }
+    ],
+    "front_door_lock::unlock": [
+      {
+        "next_action": "kitchen_light::turn_on",
+        "probability": 0.727,
+        "count": 8,
+        "total": 11
+      }
+    ],
+    "bedroom_ac::set_temperature": [
+      {
+        "next_action": "bedroom_ac::turn_on",
+        "probability": 0.929,
+        "count": 13,
+        "total": 14
+      }
+    ],
+    "bedroom_ac::turn_on": [
+      {
+        "next_action": "bedroom_ac::set_temperature",
+        "probability": 0.643,
+        "count": 9,
+        "total": 14
+      }
+    ],
+    "bedroom_light::turn_off": [
+      {
+        "next_action": "kitchen_light::turn_on",
+        "probability": 0.75,
+        "count": 12,
+        "total": 16
+      }
+    ]
+  },
+  "Bob": {
+    "living_room_ac::turn_on": [
+      {
+        "next_action": "living_room_ac::set_temperature",
+        "probability": 0.4,
+        "count": 14,
+        "total": 35
+      },
+      {
+        "next_action": "living_room_tv::turn_on",
+        "probability": 0.4,
+        "count": 14,
+        "total": 35
+      }
+    ],
+    "living_room_tv::turn_on": [
+      {
+        "next_action": "living_room_ac::turn_on",
+        "probability": 0.476,
+        "count": 10,
+        "total": 21
+      },
+      {
+        "next_action": "bedroom_light::turn_on",
+        "probability": 0.143,
+        "count": 3,
+        "total": 21
+      }
+    ],
+    "living_room_ac::set_temperature": [
+      {
+        "next_action": "living_room_ac::turn_on",
+        "probability": 0.692,
+        "count": 9,
+        "total": 13
+      }
+    ],
+    "smart_thermostat::set_temperature": [
+      {
+        "next_action": "living_room_tv::turn_off",
+        "probability": 0.692,
+        "count": 9,
+        "total": 13
+      }
+    ],
+    "living_room_tv::turn_off": [
+      {
+        "next_action": "smart_thermostat::set_temperature",
+        "probability": 0.846,
+        "count": 11,
+        "total": 13
+      }
+    ]
+  },
+  "Carol": {
+    "bathroom_light::turn_on": [
+      {
+        "next_action": "kitchen_light::turn_on",
+        "probability": 0.75,
+        "count": 12,
+        "total": 16
+      }
+    ],
+    "front_door_lock::lock": [
+      {
+        "next_action": "garage_door::open",
+        "probability": 0.889,
+        "count": 8,
+        "total": 9
+      }
+    ],
+    "garage_door::open": [
+      {
+        "next_action": "front_door_lock::lock",
+        "probability": 0.786,
+        "count": 11,
+        "total": 14
+      }
+    ],
+    "front_door_lock::unlock": [
+      {
+        "next_action": "garage_door::close",
+        "probability": 0.462,
+        "count": 6,
+        "total": 13
+      },
+      {
+        "next_action": "kitchen_light::turn_on",
+        "probability": 0.385,
+        "count": 5,
+        "total": 13
+      }
+    ],
+    "kitchen_light::turn_off": [
+      {
+        "next_action": "living_room_tv::turn_on",
+        "probability": 0.889,
+        "count": 8,
+        "total": 9
+      }
+    ],
+    "garage_door::close": [
+      {
+        "next_action": "kitchen_light::turn_on",
+        "probability": 0.5,
+        "count": 7,
+        "total": 14
+      },
+      {
+        "next_action": "front_door_lock::unlock",
+        "probability": 0.429,
+        "count": 6,
+        "total": 14
+      }
+    ],
+    "living_room_tv::turn_on": [
+      {
+        "next_action": "kitchen_light::turn_off",
+        "probability": 0.429,
+        "count": 6,
+        "total": 14
+      }
+    ],
+    "kitchen_light::turn_on": [
+      {
+        "next_action": "bathroom_light::turn_on",
+        "probability": 0.464,
+        "count": 13,
+        "total": 28
+      },
+      {
+        "next_action": "garage_door::close",
+        "probability": 0.179,
+        "count": 5,
+        "total": 28
+      },
+      {
+        "next_action": "front_door_lock::unlock",
+        "probability": 0.143,
+        "count": 4,
+        "total": 28
+      }
+    ]
+  }
+}

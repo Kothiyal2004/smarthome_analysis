@@ -1,0 +1,4 @@
+[2026-04-26 22:40:53] SUGGESTION  Alice  |  trigger=front_door_lock::unlock  predicted=kitchen_light::turn_on  confidence=73%  reason=sequence  |  Want the kitchen light on, Alice?
+[2026-04-26 22:40:54] SUGGESTION  Alice  |  trigger=bathroom_light::turn_on  predicted=bathroom_light::turn_on  confidence=64%  reason=time_pattern  |  Good morning Alice! Bathroom light on?
+[2026-04-26 22:40:56] SUGGESTION  Carol  |  trigger=kitchen_light::turn_off  predicted=living_room_tv::turn_on  confidence=89%  reason=sequence  |  It's 10:00 PM — TV time, Carol? Turn it on?
+[2026-04-26 22:40:58] SUGGESTION  Carol  |  trigger=front_door_lock::lock  predicted=garage_door::open  confidence=89%  reason=sequence  |  Heading out, Carol? Open the garage?

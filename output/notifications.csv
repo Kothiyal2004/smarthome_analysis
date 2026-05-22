@@ -1,0 +1,32 @@
+user name,device name,service,hour,count,pct,confidence,notification
+Alice,bathroom_light,turn_on,6.0,20,64.5,HIGH,Good morning Alice! Want the bathroom light on?
+Alice,bedroom_light,turn_on,20.0,18,58.1,HIGH,"It's 8:00 PM. Bedroom light on, Alice?"
+Alice,bedroom_ac,turn_off,23.0,17,54.8,MEDIUM,11:00 PM: turn off bedroom ac for Alice?
+Alice,kitchen_light,turn_on,7.0,17,54.8,MEDIUM,Good morning Alice! Shall I turn on the kitchen light?
+Alice,bedroom_light,turn_off,7.0,16,51.6,MEDIUM,7:00 AM: turn off bedroom light for Alice?
+Alice,bedroom_ac,turn_on,18.0,15,48.4,MEDIUM,"It's 6:00 PM. Would you like me to turn on the bedroom AC, Alice?"
+Alice,bedroom_ac,set_temperature,18.0,14,45.2,MEDIUM,6:00 PM: set temperature bedroom ac for Alice?
+Alice,bedroom_ac,turn_on,19.0,14,45.2,MEDIUM,"It's 7:00 PM. Would you like me to turn on the bedroom AC, Alice?"
+Alice,bedroom_light,turn_off,6.0,14,45.2,MEDIUM,6:00 AM: turn off bedroom light for Alice?
+Alice,kitchen_light,turn_on,6.0,13,41.9,MEDIUM,Good morning Alice! Shall I turn on the kitchen light?
+Bob,living_room_tv,turn_on,19.0,20,64.5,HIGH,"It's 7:00 PM — your usual TV time, Bob. Turn it on?"
+Bob,smart_thermostat,set_temperature,13.0,19,61.3,HIGH,"Setting the thermostat to your usual temp, Bob?"
+Bob,living_room_tv,turn_on,9.0,18,58.1,HIGH,"It's 9:00 AM — your usual TV time, Bob. Turn it on?"
+Bob,smart_thermostat,set_temperature,23.0,18,58.1,HIGH,"Setting the thermostat to your usual temp, Bob?"
+Bob,living_room_ac,turn_on,9.0,17,54.8,MEDIUM,"It's 9:00 AM. Shall I cool the living room, Bob?"
+Bob,living_room_tv,turn_off,23.0,15,48.4,MEDIUM,11:00 PM: turn off living room tv for Bob?
+Bob,living_room_ac,turn_on,19.0,14,45.2,MEDIUM,"It's 7:00 PM. Shall I cool the living room, Bob?"
+Bob,living_room_ac,set_temperature,10.0,13,41.9,MEDIUM,10:00 AM: set temperature living room ac for Bob?
+Bob,living_room_ac,turn_on,10.0,13,41.9,MEDIUM,"It's 10:00 AM. Shall I cool the living room, Bob?"
+Bob,living_room_ac,turn_on,20.0,13,41.9,MEDIUM,"It's 8:00 PM. Shall I cool the living room, Bob?"
+Bob,living_room_tv,turn_on,8.0,13,41.9,MEDIUM,"It's 8:00 AM — your usual TV time, Bob. Turn it on?"
+Bob,living_room_tv,turn_on,11.0,13,41.9,MEDIUM,"It's 11:00 AM — your usual TV time, Bob. Turn it on?"
+Carol,garage_door,open,9.0,23,74.2,HIGH,"Heading out, Carol? Shall I open the garage?"
+Carol,bathroom_light,turn_on,7.0,16,51.6,MEDIUM,Good morning Carol! Want the bathroom light on?
+Carol,kitchen_light,turn_on,6.0,16,51.6,MEDIUM,Good morning Carol! Shall I turn on the kitchen light?
+Carol,living_room_tv,turn_on,19.0,16,51.6,MEDIUM,"It's 7:00 PM — your usual TV time, Carol. Turn it on?"
+Carol,bathroom_light,turn_off,22.0,15,48.4,MEDIUM,10:00 PM: turn off bathroom light for Carol?
+Carol,bathroom_light,turn_on,6.0,14,45.2,MEDIUM,Good morning Carol! Want the bathroom light on?
+Carol,kitchen_light,turn_on,7.0,14,45.2,MEDIUM,Good morning Carol! Shall I turn on the kitchen light?
+Carol,front_door_lock,unlock,17.0,13,41.9,MEDIUM,"Welcome home, Carol! Shall I unlock the front door?"
+Carol,garage_door,open,10.0,13,41.9,MEDIUM,"Heading out, Carol? Shall I open the garage?"

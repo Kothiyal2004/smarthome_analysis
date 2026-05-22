@@ -1,0 +1,324 @@
+[2026-04-26 22:52:08] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=73%  |  Good evening Alice! Kitchen light on?
+[2026-04-26 22:52:09] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+[2026-04-26 22:52:10] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 10:00 PM — TV time, Carol? Turn it on?
+[2026-04-26 22:52:11] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+[2026-04-26 22:57:07] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+[2026-04-26 22:57:07] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+[2026-04-26 22:57:07] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+[2026-04-26 22:57:07] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+[2026-04-26 22:57:07] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+[2026-04-26 22:57:07] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 10:00 PM. Cool the living room, Bob?
+[2026-04-26 22:57:07] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+[2026-04-26 22:57:07] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 10:00 PM — TV time, Carol? Turn it on?
+[2026-04-26 22:57:07] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 10:00 PM. Shall I turn on the bedroom AC, Alice?
+[2026-04-26 22:57:07] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+[2026-05-03 22:01:18] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 10:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 10:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 10:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-03 22:01:18] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 6:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 6:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 6:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 18:56:06] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-04 19:00:06] [TIME]  Bob  |  living_room_tv::turn_on  conf=64%  |  It's 7:00 PM — TV time, Bob? Turn it on?
+[2026-05-06 06:16:49] [TIME]  Alice  |  bathroom_light::turn_on  conf=64%  |  Good morning Alice! Bathroom light on?
+[2026-05-06 20:36:20] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 8:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 8:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 8:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-06 20:36:20] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 5:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 5:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 5:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 17:40:06] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-08 19:01:07] [TIME]  Bob  |  living_room_tv::turn_on  conf=64%  |  It's 7:00 PM — TV time, Bob? Turn it on?
+[2026-05-09 23:02:27] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 11:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 11:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 11:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-09 23:02:27] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 4:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 4:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 4:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-11 16:13:15] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 06:36:30] [TIME]  Alice  |  bathroom_light::turn_on  conf=64%  |  Good morning Alice! Bathroom light on?
+[2026-05-14 09:47:54] [TIME]  Carol  |  garage_door::open  conf=74%  |  Heading out, Carol? Open the garage?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good morning Alice! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good morning Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 9:00 AM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 9:00 AM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 9:00 AM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 09:47:54] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-14 13:00:10] [TIME]  Bob  |  smart_thermostat::set_temperature  conf=61%  |  Set thermostat to your usual temp, Bob?
+[2026-05-15 10:32:03] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good morning Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good morning Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 10:00 AM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 10:00 AM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 10:00 AM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-15 10:32:03] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-16 13:10:27] [TIME]  Bob  |  smart_thermostat::set_temperature  conf=61%  |  Set thermostat to your usual temp, Bob?
+[2026-05-17 20:08:44] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 8:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 8:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 8:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-17 20:08:44] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 2:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 2:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 2:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-19 14:48:48] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 6:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 6:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 6:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 18:58:18] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-20 19:00:19] [TIME]  Bob  |  living_room_tv::turn_on  conf=64%  |  It's 7:00 PM — TV time, Bob? Turn it on?
+[2026-05-21 17:26:23] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good evening Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good evening Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 5:00 PM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 5:00 PM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 5:00 PM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-21 17:26:23] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Alice  |  kitchen_light::turn_on  conf=75%  |  Good morning Alice! Kitchen light on?
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Carol  |  kitchen_light::turn_on  conf=75%  |  Good morning Carol! Kitchen light on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Carol  |  garage_door::open  conf=89%  |  Heading out, Carol? Open the garage?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Carol  |  front_door_lock::lock  conf=79%  |  Heading out, Carol? Want me to lock the door?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Alice  |  bedroom_ac::set_temperature  conf=64%  |  Set bedroom AC to your usual temp, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Bob  |  living_room_ac::turn_on  conf=69%  |  It's 11:00 AM. Cool the living room, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Bob  |  living_room_tv::turn_off  conf=69%  |  Calling it a night, Bob? Turn off the TV?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Carol  |  living_room_tv::turn_on  conf=89%  |  It's 11:00 AM — TV time, Carol? Turn it on?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Alice  |  bedroom_ac::turn_on  conf=93%  |  It's 11:00 AM. Shall I turn on the bedroom AC, Alice?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 11:49:04] [SEQUENCE]  Bob  |  smart_thermostat::set_temperature  conf=85%  |  Set thermostat to your usual temp, Bob?
+GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2026-05-22 13:00:09] [TIME]  Bob  |  smart_thermostat::set_temperature  conf=61%  |  Set thermostat to your usual temp, Bob?

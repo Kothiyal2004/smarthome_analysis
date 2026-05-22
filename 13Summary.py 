@@ -1,0 +1,133 @@
+"""
+13_daily_summary.py
+────────────────────────────────────────────────────────────────
+Reads unified_alerts.log and prints a clean daily summary.
+Shows: total alerts, by engine, by user, top predictions.
+
+Run manually any time:
+    python 13_daily_summary.py           today only
+    python 13_daily_summary.py --all     full history
+    python 13_daily_summary.py --days 7  last 7 days
+────────────────────────────────────────────────────────────────
+"""
+
+import os
+import sys
+from datetime import datetime, date, timedelta
+from collections import Counter
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_FILE = os.path.join(BASE_DIR, "output", "unified_alerts.log")
+
+SHOW_ALL = "--all" in sys.argv
+DAYS     = 1
+if "--days" in sys.argv:
+    idx = sys.argv.index("--days")
+    try:
+        DAYS = int(sys.argv[idx + 1])
+        SHOW_ALL = False
+    except (IndexError, ValueError):
+        pass
+
+if not os.path.exists(LOG_FILE):
+    # Try fallback logs
+    for fallback in ["alerts.log", "behaviour_alerts.log"]:
+        fp = os.path.join(BASE_DIR, "output", fallback)
+        if os.path.exists(fp):
+            LOG_FILE = fp
+            break
+    else:
+        print("No log file found.")
+        print("Run: python 11_unified_engine.py --test")
+        raise SystemExit(0)
+
+with open(LOG_FILE, encoding="utf-8") as f:
+    lines = f.readlines()
+
+# Parse log lines
+records = []
+for line in lines:
+    line = line.strip()
+    if not line:
+        continue
+    try:
+        # [2026-04-18 19:00:52] [TIME]  Alice | bedroom_ac::turn_on ...
+        ts_str = line[1:20]
+        ts     = datetime.strptime(ts_str, "%Y-%m-%d %H:%M:%S")
+        engine = "TIME" if "[TIME]" in line else "SEQUENCE" if "[SEQUENCE]" in line else "ALERT"
+        # Extract user
+        user = "Unknown"
+        if "|" in line:
+            parts = line.split("|")
+            for p in parts:
+                p = p.strip()
+                if p and not any(x in p for x in ["[","conf=","reason=","trigger="]):
+                    candidate = p.split()[-1] if p.split() else p
+                    if len(candidate) > 1 and candidate[0].isupper():
+                        user = candidate
+                        break
+        # Extract message (last | segment)
+        msg = line.split("|")[-1].strip() if "|" in line else line
+        records.append({"ts": ts, "engine": engine, "user": user, "msg": msg, "line": line})
+    except Exception:
+        continue
+
+# Filter by date range
+today = date.today()
+if SHOW_ALL:
+    filtered = records
+    label    = "ALL TIME"
+elif DAYS > 1:
+    cutoff   = today - timedelta(days=DAYS-1)
+    filtered = [r for r in records if r["ts"].date() >= cutoff]
+    label    = f"LAST {DAYS} DAYS"
+else:
+    filtered = [r for r in records if r["ts"].date() == today]
+    label    = f"TODAY ({today})"
+
+# ── Print summary ─────────────────────────────────────────────────
+W = 60
+print("=" * W)
+print(f"  SMART HOME — DAILY SUMMARY — {label}")
+print("=" * W)
+
+if not filtered:
+    print(f"\n  No alerts in {label.lower()} yet.")
+    print("  Run: python 11_unified_engine.py --test")
+    print(f"  Log: {LOG_FILE}")
+    raise SystemExit(0)
+
+print(f"\n  Total alerts   : {len(filtered)}")
+
+# By engine
+engines = Counter(r["engine"] for r in filtered)
+print(f"\n  By engine:")
+for eng, cnt in engines.most_common():
+    bar = "█" * int(cnt / len(filtered) * 20)
+    print(f"    {eng:<12}  {cnt:>3}  {bar}")
+
+# By user
+users = Counter(r["user"] for r in filtered)
+print(f"\n  By user:")
+for user, cnt in users.most_common():
+    bar = "█" * int(cnt / len(filtered) * 20)
+    print(f"    {user:<12}  {cnt:>3}  {bar}")
+
+# By hour
+hours = Counter(r["ts"].hour for r in filtered)
+print(f"\n  By hour (top 5):")
+for h, cnt in hours.most_common(5):
+    apm = f"{h%12 or 12}{'AM' if h<12 else 'PM'}"
+    print(f"    {apm:<8}  {cnt:>3} alerts")
+
+# Chronological list
+print(f"\n  Chronological log:")
+print(f"  {'─'*56}")
+for r in filtered[-20:]:  # last 20
+    ts_short = r["ts"].strftime("%H:%M:%S")
+    msg_short = r["msg"][:50] + "..." if len(r["msg"]) > 50 else r["msg"]
+    print(f"  {ts_short}  [{r['engine']:<8}]  {msg_short}")
+
+print()
+print(f"  Full log: {LOG_FILE}")
+print("=" * W)

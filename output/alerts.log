@@ -1,0 +1,82 @@
+[2026-04-24 14:47:38] [INFO] =======================================================
+[2026-04-24 14:47:38] [INFO]   Smart Home Alert System — STARTED
+[2026-04-24 14:47:38] [INFO]   Patterns loaded   : 31
+[2026-04-24 14:47:38] [INFO]   Log file          : /home/okas/Desktop/smarthome_analysis/output/alerts.log
+[2026-04-24 14:47:38] [INFO]   Desktop notify    : ON
+[2026-04-24 14:47:38] [INFO]   Press Ctrl+C to stop
+[2026-04-24 14:47:38] [INFO] =======================================================
+[2026-04-24 14:48:27] [INFO] Alert system stopped by user (Ctrl+C).
+[2026-04-24 14:49:12] [INFO] =======================================================
+[2026-04-24 14:49:12] [INFO]   Smart Home Alert System — STARTED
+[2026-04-24 14:49:12] [INFO]   Patterns loaded   : 31
+[2026-04-24 14:49:12] [INFO]   Log file          : /home/okas/Desktop/smarthome_analysis/output/alerts.log
+[2026-04-24 14:49:12] [INFO]   Desktop notify    : ON
+[2026-04-24 14:49:12] [INFO]   Press Ctrl+C to stop
+[2026-04-24 14:49:12] [INFO] =======================================================
+[2026-04-24 14:56:20] [INFO] Alert system stopped by user (Ctrl+C).
+[2026-04-24 16:17:41] [INFO] =======================================================
+[2026-04-24 16:17:41] [INFO]   Smart Home Alert System — STARTED
+[2026-04-24 16:17:41] [INFO]   Patterns loaded   : 31
+[2026-04-24 16:17:41] [INFO]   Log file          : /home/okas/Desktop/smarthome_analysis/output/alerts.log
+[2026-04-24 16:17:41] [INFO]   Desktop notify    : ON
+[2026-04-24 16:17:41] [INFO]   Press Ctrl+C to stop
+[2026-04-24 16:17:41] [INFO] =======================================================
+[2026-04-24 16:18:12] [INFO] Alert system stopped by user (Ctrl+C).
+[2026-04-24 16:21:28] [INFO] === TEST MODE — firing all 31 HIGH/MEDIUM patterns ===
+[2026-04-24 16:21:28] [INFO] ALERT  Smart Home — Alice  |  Good morning Alice! Bathroom light on?
+[2026-04-24 16:21:29] [INFO] ALERT  Smart Home — Alice  |  Set bedroom AC to your usual temp, Alice?
+[2026-04-24 16:21:31] [INFO] ALERT  Smart Home — Alice  |  It's 11:00 PM. Turn off the bedroom AC, Alice?
+[2026-04-24 16:21:32] [INFO] ALERT  Smart Home — Alice  |  It's 6:00 PM. Turn on the bedroom AC, Alice?
+[2026-04-24 16:21:34] [INFO] ALERT  Smart Home — Alice  |  It's 7:00 PM. Turn on the bedroom AC, Alice?
+[2026-04-24 16:21:35] [INFO] ALERT  Smart Home — Alice  |  Morning Alice! Bedroom light off?
+[2026-04-24 16:21:37] [INFO] ALERT  Smart Home — Alice  |  Morning Alice! Bedroom light off?
+[2026-04-24 16:21:38] [INFO] ALERT  Smart Home — Alice  |  It's 8:00 PM. Bedroom light on, Alice?
+[2026-04-24 16:21:40] [INFO] ALERT  Smart Home — Alice  |  Good morning Alice! Kitchen light on?
+[2026-04-24 16:21:41] [INFO] ALERT  Smart Home — Alice  |  Good morning Alice! Kitchen light on?
+[2026-04-24 16:21:43] [INFO] ALERT  Smart Home — Bob  |  Set living room AC to your usual temp, Bob?
+[2026-04-24 16:21:45] [INFO] ALERT  Smart Home — Bob  |  It's 9:00 AM. Cool the living room, Bob?
+[2026-04-24 16:21:46] [INFO] ALERT  Smart Home — Bob  |  It's 10:00 AM. Cool the living room, Bob?
+[2026-04-24 16:21:48] [INFO] ALERT  Smart Home — Bob  |  It's 7:00 PM. Cool the living room, Bob?
+[2026-04-24 16:21:49] [INFO] ALERT  Smart Home — Bob  |  It's 8:00 PM. Cool the living room, Bob?
+[2026-04-24 16:21:51] [INFO] ALERT  Smart Home — Bob  |  Calling it a night, Bob? Turn off the TV?
+[2026-04-24 16:21:52] [INFO] ALERT  Smart Home — Bob  |  It's 8:00 AM — TV time, Bob? Turn it on?
+[2026-04-24 16:21:54] [INFO] ALERT  Smart Home — Bob  |  It's 9:00 AM — TV time, Bob? Turn it on?
+[2026-04-24 16:21:55] [INFO] ALERT  Smart Home — Bob  |  It's 11:00 AM — TV time, Bob? Turn it on?
+[2026-04-24 16:21:57] [INFO] ALERT  Smart Home — Bob  |  It's 7:00 PM — TV time, Bob? Turn it on?
+[2026-04-24 16:21:58] [INFO] ALERT  Smart Home — Bob  |  Set the thermostat to your usual temp, Bob?
+[2026-04-24 16:22:00] [INFO] ALERT  Smart Home — Bob  |  Set the thermostat to your usual temp, Bob?
+[2026-04-24 16:22:01] [INFO] ALERT  Smart Home — Carol  |  Bedtime, Carol? Bathroom light off?
+[2026-04-24 16:22:03] [INFO] ALERT  Smart Home — Carol  |  Good morning Carol! Bathroom light on?
+[2026-04-24 16:22:04] [INFO] ALERT  Smart Home — Carol  |  Good morning Carol! Bathroom light on?
+[2026-04-24 16:22:06] [INFO] ALERT  Smart Home — Carol  |  Welcome home, Carol! Unlock the front door?
+[2026-04-24 16:22:07] [INFO] ALERT  Smart Home — Carol  |  Heading out, Carol? Open the garage?
+[2026-04-24 16:22:09] [INFO] ALERT  Smart Home — Carol  |  Heading out, Carol? Open the garage?
+[2026-04-24 16:22:10] [INFO] ALERT  Smart Home — Carol  |  Good morning Carol! Kitchen light on?
+[2026-04-24 16:22:12] [INFO] ALERT  Smart Home — Carol  |  Good morning Carol! Kitchen light on?
+[2026-04-24 16:22:14] [INFO] ALERT  Smart Home — Carol  |  It's 7:00 PM — TV time, Carol? Turn it on?
+[2026-04-24 16:22:15] [INFO] === TEST MODE complete ===
+[2026-04-24 16:25:14] [INFO] === TEST MODE — firing all 31 HIGH/MEDIUM patterns ===
+[2026-04-24 16:25:14] [INFO] ALERT  Smart Home — Alice  |  Good morning Alice! Bathroom light on?
+[2026-04-24 16:25:16] [INFO] ALERT  Smart Home — Alice  |  Set bedroom AC to your usual temp, Alice?
+[2026-04-24 16:25:17] [INFO] ALERT  Smart Home — Alice  |  It's 11:00 PM. Turn off the bedroom AC, Alice?
+[2026-04-24 16:25:19] [INFO] ALERT  Smart Home — Alice  |  It's 6:00 PM. Turn on the bedroom AC, Alice?
+[2026-04-24 16:25:21] [INFO] ALERT  Smart Home — Alice  |  It's 7:00 PM. Turn on the bedroom AC, Alice?
+[2026-04-24 16:25:22] [INFO] ALERT  Smart Home — Alice  |  Morning Alice! Bedroom light off?
+[2026-04-24 16:25:24] [INFO] ALERT  Smart Home — Alice  |  Morning Alice! Bedroom light off?
+[2026-04-24 16:25:25] [INFO] ALERT  Smart Home — Alice  |  It's 8:00 PM. Bedroom light on, Alice?
+[2026-04-24 16:25:27] [INFO] ALERT  Smart Home — Alice  |  Good morning Alice! Kitchen light on?
+[2026-04-24 16:25:28] [INFO] ALERT  Smart Home — Alice  |  Good morning Alice! Kitchen light on?
+nohup: ignoring input
+[2026-04-24 16:35:15] [INFO] =======================================================
+[2026-04-24 16:35:15] [INFO]   Smart Home Alert System — STARTED
+[2026-04-24 16:35:15] [INFO]   Patterns loaded   : 31
+[2026-04-24 16:35:15] [INFO]   Log file          : /home/okas/Desktop/smarthome_analysis/output/alerts.log
+[2026-04-24 16:35:15] [INFO]   Desktop notify    : ON
+[2026-04-24 16:35:15] [INFO]   Press Ctrl+C to stop
+[2026-04-24 16:35:15] [INFO] =======================================================
+/home/okas/Desktop/smarthome_analysis/venv/lib/python3.10/site-packages/plyer/platforms/linux/notification.py:103: UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+  warnings.warn(msg)
+[2026-04-24 17:00:16] [INFO] ALERT  Smart Home — Carol  |  Welcome home, Carol! Unlock the front door?
+[2026-04-24 18:00:06] [INFO] ALERT  Smart Home — Alice  |  Set bedroom AC to your usual temp, Alice?
+[2026-04-24 18:00:06] [INFO] ALERT  Smart Home — Alice  |  It's 6:00 PM. Turn on the bedroom AC, Alice?

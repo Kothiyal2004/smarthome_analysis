@@ -1,0 +1,8 @@
+date,user,device,service,predicted_hour,ci_low,ci_high,notification
+2026-04-18,Alice,bedroom_ac,turn_on,10,0.8,19.7,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
+2026-04-19,Alice,bedroom_ac,turn_on,10,0.7,19.7,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
+2026-04-20,Alice,bedroom_ac,turn_on,10,0.5,19.9,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
+2026-04-21,Alice,bedroom_ac,turn_on,10,0.4,19.9,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
+2026-04-22,Alice,bedroom_ac,turn_on,10,0.3,20.0,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
+2026-04-23,Alice,bedroom_ac,turn_on,10,0.2,20.1,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
+2026-04-24,Alice,bedroom_ac,turn_on,10,0.1,20.2,"It's 10:00 AM. Would you like me to turn on the bedroom AC, Alice?"
